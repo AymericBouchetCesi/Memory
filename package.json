@@ -4,7 +4,7 @@
   "description": "Memory",
   "main": "memory.js",
   "scripts": {
-    "start": "node ./memory.js",
+    "start": "node src/main/memory.js",
     "test": "mocha src/test",
     "cypress:open": "cypress open"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AymericBouchetCesi/Memory#readme",
   "dependencies": {
+    "chai": "^4.3.6",
     "cypress": "^9.5.1",
     "mocha": "^9.2.1"
   }
