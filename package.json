@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Memory",
   "main": "memory.js",
+  "type":"module",
   "scripts": {
     "start": "node src/main/memory.js",
     "test": "mocha src/test",

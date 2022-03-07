@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             console.log(i,j,cell);
             cell.addEventListener("click",()=>{
                 cell.src = "images/image1.jpeg"
-                delay(1000).then(()=>{
+                delay(3000).then(()=>{
                     cell.src = "images/dos.jpeg"
                 })
             })
